@@ -1,40 +1,11 @@
 # AI Interactions Log
 
-> **Stretch features only.** Only fill in the sections that apply to stretch features you attempted. If you did not attempt a stretch feature, leave its section blank or delete it. This file is not required for the core project.
+## Actual workflow
+- Tool: ChatGPT/Codex in this conversation.
+- User request: "do this", with the full PawPal+ assignment attached.
+- Assistant actions: read the assignment and public starter; created a draft UML and Python skeleton; committed the skeleton; implemented and ran the CLI; connected Streamlit; generated and executed backend and app tests; updated the final UML and documentation.
+- Verification: 23 backend test cases plus two Streamlit AppTest scenarios; actual output is recorded in README.md.
+- Design choices: recurrence belongs to Scheduler so Task does not depend on a parent Pet; chronology includes both date and time; repeated completion is idempotent; conflicts warn rather than block.
+- Human review remaining: inspect the app and code, personalize reflection.md, publish to a public fork, and submit the repository link through the course.
 
----
-
-## Agent Workflow (SF7)
-
-> Document your experience using an AI agent (e.g., Cursor Agent, Claude, Copilot) to make multi-step changes autonomously.
-
-**What task did you give the agent?**
-
-<!-- Describe the goal you asked the agent to accomplish -->
-
-**What did the agent do?**
-
-<!-- List the steps the agent took (files edited, commands run, etc.) -->
-
-**What did you have to verify or fix manually?**
-
-<!-- Describe anything the agent got wrong or that required human review -->
-
----
-
-## Prompt Comparison (SF11)
-
-> Compare two different prompts (or two different models) on the same task.
-
-| | Option A | Option B |
-|-|----------|----------|
-| **Model / tool used** | | |
-| **Prompt** | | |
-| **Response summary** | | |
-| **What was useful** | | |
-| **Problems noticed** | | |
-| **Decision** | | |
-
-**Which approach did you use in your final implementation and why?**
-
-<!-- Your conclusion -->
+No model comparison or separate-chat-session experiment was conducted. No such stretch-feature credit is claimed.
